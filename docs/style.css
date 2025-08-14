@@ -1,0 +1,317 @@
+/* 基础样式 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header样式 */
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    margin: 0;
+    color: #1a1a1a;
+    font-size: 1.8rem;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    margin-left: 1.5rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+/* 容器样式 */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+/* 侧边栏样式 */
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    margin-right: 2rem;
+    height: fit-content;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    color: #1a1a1a;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 0.8rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+/* 内容区域样式 */
+.content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 控制工具块之间的间距 */
+}
+
+/* 工具卡片样式 */
+.tool-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px; /* 限制每个卡片的最大宽度 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px); /* 鼠标悬停时向上轻微移动 */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* 标签样式 */
+.tool-card .tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 1;
+}
+
+/* 不同分类的标签颜色 */
+.tool-card[data-category="blog"] .tag {
+    background-color: #1976d2; /* 深蓝色 */
+}
+
+.tool-card[data-category="tools"] .tag {
+    background-color: #388e3c; /* 深绿色 */
+}
+
+.tool-card[data-category="tutorials"] .tag {
+    background-color: #f57f17; /* 深黄色 */
+}
+
+.tool-card[data-category="projects"] .tag {
+    background-color: #7b1fa2; /* 深紫色 */
+}
+
+.tool-image {
+    width: 100%;
+    height: 200px; /* 固定图片高度 */
+    object-fit: cover; /* 确保图片覆盖整个容器，并保持比例 */
+}
+
+.tool-content {
+    padding: 20px;
+}
+
+.tool-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.tool-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* 介绍页面样式 */
+.introduction {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    flex: 1;
+}
+
+.introduction h2 {
+    color: #1a1a1a;
+    border-bottom: 2px solid #e3f2fd;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.introduction h3 {
+    color: #1a1a1a;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    border-left: 4px solid #1976d2;
+}
+
+.introduction h4 {
+    color: #1a1a1a;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.introduction p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.introduction ul {
+    color: #666;
+    padding-left: 1.2rem;
+}
+
+.introduction li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+/* 超链接样式优化 */
+.introduction a, .tool-title a {
+    color: #1976d2;
+    text-decoration: none;
+    border-bottom: 1px dashed #1976d2;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.introduction a:hover, .tool-title a:hover {
+    color: #0d47a1;
+    border-bottom: 1px solid #0d47a1;
+    background-color: #f5f9ff;
+    padding: 0.1rem 0.2rem;
+    border-radius: 3px;
+}
+
+/* 工具分类列表样式 */
+.introduction .category {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 为不同分类设置不同背景色 */
+.introduction .category:nth-of-type(1) {
+    background-color: #e3f2fd; /* 淡蓝色 */
+}
+
+.introduction .category:nth-of-type(2) {
+    background-color: #e8f5e9; /* 淡绿色 */
+}
+
+.introduction .category:nth-of-type(3) {
+    background-color: #fff8e1; /* 淡黄色 */
+}
+
+.introduction .category:nth-of-type(4) {
+    background-color: #f3e5f5; /* 淡紫色 */
+}
+
+.introduction .category ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.introduction .category li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.introduction .category li:last-child {
+    border-bottom: none;
+}
+
+/* 工具分类列表样式 */
+.introduction h4 + li {
+    margin-top: 0.3rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .navigation ul {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+    
+    .navigation li {
+        margin: 0 0.5rem;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        flex: 0 0 auto;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+}
