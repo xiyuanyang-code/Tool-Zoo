@@ -58,13 +58,13 @@ This is a personal project showcase. Feel free to fork and use as a template for
 
 ## Todo List
 
-- [ ]: Optimize the introduction for several repo.
+- [ ] Optimize the introduction for several repo.
 
-- [ ]: Change the default avatar.
+- [ ] Change the default avatar.
 
-- [ ]: Add introduction.
+- [ ] Add introduction.
 
-- [ ]: Add json file to store data instead of writing pure html code.
+- [ ] Add json file to store data instead of writing pure html code.
 
 ## License
 
