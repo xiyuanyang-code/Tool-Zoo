@@ -64,7 +64,7 @@ This is a personal project showcase. Feel free to fork and use as a template for
 
 - [ ] Add introduction.
 
-- [ ] Add json file to store data instead of writing pure html code.
+- [x] Add json file to store data instead of writing pure html code.
 
 ## License
 

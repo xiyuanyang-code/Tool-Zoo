@@ -1,0 +1,146 @@
+[
+    {
+        "category": "blog",
+        "title": "Blog & Community",
+        "tools": [
+            {
+                "name": "My Personal Blog",
+                "description": "My personal technical blog.",
+                "url": "https://github.com/xiyuanyang-code/xiyuanyang-code.github.io",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Blog Source Backup",
+                "description": "Blog Source Backup for images and markdown files.",
+                "url": "https://github.com/xiyuanyang-code/Blog-Source-Backup",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Blog Word Counting",
+                "description": "Python and shell scripts for automatically counting the total word count of a Hexo blog.",
+                "url": "https://github.com/xiyuanyang-code/Blog-word-counting",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Blog Update Fetching Scripts",
+                "description": "Scripts for getting the updating status of Hexo Blog.",
+                "url": "https://github.com/xiyuanyang-code/Blog-Update-Fetching-Script",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "SAI Community",
+                "description": "Community and integrated forums for School of Artificial Intelligence, SJTU.",
+                "url": "https://github.com/xiyuanyang-code/SAI-Community",
+                "imgs": "./assets/image.png"
+            }
+        ]
+    },
+    {
+        "category": "tools",
+        "title": "Small & Efficient Tools",
+        "tools": [
+            {
+                "name": "Feishu GPU Monitoring",
+                "description": "Scripts for monitoring GPU usage on remote machine via feishu bot",
+                "url": "https://github.com/xiyuanyang-code/Feishu-GPU-Auto-Monitoring",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Repo-Code Line Counting",
+                "description": "A tool counting the number of code lines in a repository, with options to ignore specific folders and filter by file extensions.",
+                "url": "https://github.com/xiyuanyang-code/Repo-Code-Line-Counting",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "uv slow",
+                "description": "Tools to generate requirements.txt for Python Project.",
+                "url": "https://github.com/xiyuanyang-code/uv-slow",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Integral CheatSheet",
+                "description": "Integral CheatSheet for poor freshman",
+                "url": "https://github.com/xiyuanyang-code/Integral-CheatSheet",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Financial Record",
+                "description": "A simple command-line interface tool for quickly recording your financial transactions.",
+                "url": "https://github.com/xiyuanyang-code/Financial-Record",
+                "imgs": "./assets/image.png"
+            }
+        ]
+    },
+    {
+        "category": "tutorials",
+        "title": "Tutorials & Notes",
+        "tools": [
+            {
+                "name": "Python Tutorial",
+                "description": "Python Tutorial for several packages, including numpy, matplotlib, etc.",
+                "url": "https://github.com/xiyuanyang-code/Python-Tutorial",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Torch Memo",
+                "description": "My own Memo for several torch functions.",
+                "url": "https://github.com/xiyuanyang-code/Torch_Memo",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Full Stack Learning",
+                "description": "Tutorials and Notes for Full Stack Learning.",
+                "url": "https://github.com/xiyuanyang-code/Full-Stack-Learning",
+                "imgs": "./assets/image.png"
+            }
+        ]
+    },
+    {
+        "category": "projects",
+        "title": "Projects",
+        "tools": [
+            {
+                "name": "Data Structure Awesome",
+                "description": "Toy implementation of several data structures.",
+                "url": "https://github.com/xiyuanyang-code/Data-Structure-Awesome",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Vosk-based Translation Model",
+                "description": "A Vosk-based Chinese-English bilingual speech recognition Python Application.",
+                "url": "https://github.com/xiyuanyang-code/voice_translation",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Quick GPT",
+                "description": "A fast, user-friendly CLI tool for multi-turn conversations with OpenAI and Google Gemini models. Supports conversation history, system prompts, and easy model switching.",
+                "url": "https://github.com/xiyuanyang-code/Quick-GPT",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "CamelAgent English Essay Helper",
+                "description": "English Essay Revision Helper based on Camel-AI Agentic Framework",
+                "url": "https://github.com/xiyuanyang-code/Camel-Agent-English-Essay-Revision",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "BLOGing-AI",
+                "description": "A simple application for blog content retrieval implemented using RAG as the core technology.",
+                "url": "https://github.com/xiyuanyang-code/BLOGing-AI",
+                "imgs": "./assets/image.png"
+            },
+            {
+                "name": "Repo Coding Agent",
+                "description": "Repo-Coding-Agent: specializing in understanding extremely long and complex code blocks.",
+                "url": "https://github.com/xiyuanyang-code/Repo-Coding-Agent",
+                "imgs": "./assets/image.png"
+            }
+        ]
+    },
+    {
+        "author": {
+            "name": "Xiyuan Yang (杨希渊)",
+            "description": "Greetings! I am Xiyuan Yang (杨希渊), currently pursuing an undergraduate degree in Artificial Intelligence at Shanghai Jiao Tong University. With a longstanding aspiration to become a programmer, I am passionate about leveraging technology to make a meaningful impact on the world."
+        }
+    }
+]
