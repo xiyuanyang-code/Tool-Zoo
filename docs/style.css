@@ -293,6 +293,18 @@ body {
     margin-top: 0.3rem;
 }
 
+/* GitHub Logo 的樣式 */
+
+.github-logo {
+  height: 40px; /* 設定你需要的 Logo 大小 */
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.github-logo:hover {
+  transform: scale(1.1); /* 滑鼠懸停時放大 */
+}
+
 /* 响应式设计 */
 @media (max-width: 1024px) {
     .tool-card {
