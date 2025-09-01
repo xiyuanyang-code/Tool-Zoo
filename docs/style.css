@@ -103,8 +103,11 @@ body {
 /* 内容区域样式 */
 .content {
     flex: 1;
+}
+
+.projects-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px; /* 控制工具块之间的间距 */
 }
 

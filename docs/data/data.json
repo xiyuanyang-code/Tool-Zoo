@@ -142,5 +142,24 @@
             "name": "Xiyuan Yang (杨希渊)",
             "description": "Greetings! I am Xiyuan Yang (杨希渊), currently pursuing an undergraduate degree in Artificial Intelligence at Shanghai Jiao Tong University. With a longstanding aspiration to become a programmer, I am passionate about leveraging technology to make a meaningful impact on the world."
         }
+    },
+    {
+        "developing": [
+            {
+                "name": "test",
+                "description": "test description",
+                "detail_path": "test.md"
+            },
+            {
+                "name": "test2",
+                "description": "test description",
+                "detail_path": "test.md"
+            },
+            {
+                "name": "test3",
+                "description": "test description",
+                "detail_path": "test.md"
+            }
+        ]
     }
 ]
