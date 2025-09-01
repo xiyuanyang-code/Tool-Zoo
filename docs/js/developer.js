@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     projectsContainer.classList.add('projects-container');
     content.appendChild(projectsContainer);
 
-    console.log('Fetching main data from ./data/data.json...');
-    fetch('./data/data.json')
+    console.log('Fetching main data from /Tool-Zoo/data/data.json...');
+    fetch('/Tool-Zoo/data/data.json')
         .then(response => {
             console.log('Main data fetch response received.');
             if (!response.ok) {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const detailContainer = document.createElement('div');
                     detailContainer.classList.add('detail-container');
 
-                    const detailPath = `./data/dev/${project.detail_path}`;
+                    const detailPath = `/Tool-Zoo/data/dev/${project.detail_path}`;
                     console.log(`Fetching project detail for "${project.name}" from ${detailPath}...`);
                     fetch(detailPath)
                         .then(response => {
