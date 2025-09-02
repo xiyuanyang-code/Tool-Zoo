@@ -19,13 +19,13 @@
                 "name": "Blog Word Counting",
                 "description": "Python scripts automatically counting the total word count of a Hexo blog, with simple GitHub Pages deployed.",
                 "url": "https://github.com/xiyuanyang-code/Blog-word-counting",
-                "imgs": "./assets/image.jpg"
+                "imgs": "./assets/wordcount.jpg"
             },
             {
                 "name": "Blog Update Fetching Scripts",
                 "description": "Automatically scraping the titles of all blog posts and updating the status of each post in real-time, including completed, in progress, and not started.",
                 "url": "https://github.com/xiyuanyang-code/Blog-Update-Fetching-Script",
-                "imgs": "./assets/image.jpg"
+                "imgs": "./assets/updating-status.jpg"
             },
             {
                 "name": "SAI Community",
@@ -61,19 +61,19 @@
                 "name": "Vosk-based Translation Model",
                 "description": "A Vosk-based Chinese-English bilingual speech recognition Python Application.",
                 "url": "https://github.com/xiyuanyang-code/voice_translation",
-                "imgs": "./assets/image.jpg"
+                "imgs": "./assets/vosk.jpg"
             },
             {
                 "name": "Quick GPT",
                 "description": "A fast, user-friendly CLI tool for multi-turn MCP structured conversations with Anthropic models. Supports conversation history, system prompts, and easy model switching.",
                 "url": "https://github.com/xiyuanyang-code/Quick-GPT",
-                "imgs": "./assets/image.jpg"
+                "imgs": "./assets/quick-gpt.jpg"
             },
             {
                 "name": "CamelAgent English Essay Helper",
                 "description": "Multi-Agent English Essay Revision Helper based on Camel-AI Agentic Framework",
                 "url": "https://github.com/xiyuanyang-code/Camel-Agent-English-Essay-Revision",
-                "imgs": "./assets/image.jpg"
+                "imgs": "./assets/autogenwritingen.jpg"
             }
         ]
     },
@@ -85,13 +85,13 @@
                 "name": "Feishu GPU Monitoring",
                 "description": "Using Feishu Hook to automatically scrape GPU usage from a server and implement real-time monitoring through a Feishu bot.",
                 "url": "https://github.com/xiyuanyang-code/Feishu-GPU-Auto-Monitoring",
-                "imgs": "./assets/image.jpg"
+                "imgs": "./assets/fs.jpg"
             },
             {
                 "name": "CodeLines",
                 "description": "A tool counting the number of code lines in a repository, with options to ignore specific folders and filter by file extensions.",
                 "url": "https://github.com/xiyuanyang-code/CodeLines",
-                "imgs": "./assets/image.jpg"
+                "imgs": "./assets/linecount.jpg"
             },
             {
                 "name": "uv slow",
@@ -109,7 +109,7 @@
                 "name": "Integral CheatSheet",
                 "description": "Integral CheatSheet for poor freshman",
                 "url": "https://github.com/xiyuanyang-code/Integral-CheatSheet",
-                "imgs": "./assets/image.jpg"
+                "imgs": "./assets/int.jpg"
             },
             {
                 "name": "Financial Record",
