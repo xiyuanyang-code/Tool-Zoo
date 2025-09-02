@@ -4,29 +4,29 @@ Welcome to my personal collection of tools, projects, and resources. This is a c
 
 ## Website Structure
 
-The website consists of two main pages:
+The website consists of three main pages:
 
-1. `introduction.html` - Introduction page explaining the purpose and content of this collection
-2. `index.html` - Tools list page showcasing all tools in card format with images and tags
+- Introduction page explaining the purpose and content of this collection.
+- Tools list page showcasing all tools in card format with images and tags.
+- Current developing list.
 
 ## Features
 
 **Categorized Tools**: Tools are organized into four categories:
   - Blog & Community
+  - Projects
   - Small & Efficient Tools
   - Tutorials & Notes
-  - Projects
-
 
 ## Contributing
 
-This is a personal project showcase. Feel free to fork and use as a template for your own tool collection, but please do not submit pull requests unless you're fixing a bug.
+ALL PRS WELCOME!
 
 ## Todo List
 
-- [ ] Optimize the introduction for several repo.
-
 - [ ] Change the default avatar.
+
+- [x] Optimize the introduction for several repo.
 
 - [x] Add introduction.
 
