@@ -1,62 +1,325 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToolZoo for Xiyuan Yang</title>
+    <title>Xiyuan Yang - Developer & Researcher</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <div class="header">
-        <h1>ToolZoo for Xiyuan Yang</h1>
-        <nav class="navigation">
-            <ul>
-                <li><a href="index.html" class="active">Introduction</a></li>
-                <li><a href="list.html">Tools List</a></li>
-                <li><a href="developer.html">Current Developing</a></li>
-                <li><a href="https://github.com/xiyuanyang-code/Tool-Zoo" class="github-logo-link">
-                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                            alt="GitHub Logo" class="github-logo">
-                    </a></li>
-            </ul>
-        </nav>
+    <div class="cursor-glow"></div>
 
-    </div>
+    <nav class="navbar">
+        <div class="nav-brand"></div>
+        <div class="nav-links">
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#learning" class="nav-link">Learning</a>
+        </div>
+        <a href="https://github.com/xiyuanyang-code" class="github-link" target="_blank">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+        </a>
+    </nav>
 
-    <div class="container">
-        <aside class="sidebar">
-            <h2>Navigation</h2>
-            <ul>
-                <li><a href="index.html" class="active">Introduction</a></li>
-                <li><a href="list.html">ToolZoo Lists</a></li>
-                <li><a href="developer.html">Current Developing</a></li>
-            </ul>
-        </aside>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Hi, I'm</span>
+                    <span class="title-line title-gradient">Xiyuan Yang</span>
+                </h1>
+                <p class="hero-subtitle">Developer & Researcher</p>
+                <p class="hero-description">Building stuffs that matter, learning every day</p>
+                <div class="hero-scroll">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-indicator"></div>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="gradient-orb orb-1"></div>
+                <div class="gradient-orb orb-2"></div>
+                <div class="gradient-orb orb-3"></div>
+            </div>
+        </section>
 
-        <main class="content">
-            <section class="introduction">
-                <h2>Welcome to Xiyuan Yang's ToolZoo!</h2>
+        <section id="projects" class="section projects-section">
+            <div class="section-container">
+                <div class="section-header fade-in">
+                    <span class="section-tag">01</span>
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-description">Open source contributions and experiments</p>
+                </div>
 
-                <h3>Introduction</h3>
-                <p>Welcome to my personal collection of tools, projects, and resources. This is a curated list of tools
-                    and projects I've developed or contributed to, organized by category for easy browsing. I have
-                    always been committed to the idea that technology can change the world. This is my ToolZoo.</p>
-                <p>All open-sourced and tested, feel free to clone and use! 🥰</p>
+                <div class="projects-list">
+                    <div class="project-row featured fade-in">
+                        <div class="project-visual">
+                            <img src="assets/infomosaic.png" alt="InfoMosaic" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-badge">ICLR 2026</span>
+                            <h3>InfoMosaic</h3>
+                            <p>InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents.</p>
+                            <a href="https://github.com/DorothyDUUU/Info-Mosaic" target="_blank" class="arrow-link">
+                                View Project
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
 
-                <h3>Who am I?</h3>
-                <p>Find more information about the author on this website! <a href="https://xiyuanyang-code.github.io/cv">xiyuanyang-code</a>.</p>
+                    <div class="project-row featured fade-in">
+                        <div class="project-info">
+                            <span class="project-badge">Agents</span>
+                            <h3>AppCopilot</h3>
+                            <p>A General, Accurate, Long-Horizon, and Efficient Mobile Agent driven by Multimodal Foundation Models</p>
+                            <a href="https://github.com/OpenBMB/AppCopilot" target="_blank" class="arrow-link">
+                                View Project
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="project-visual">
+                            <img src="assets/appcopilot.png" alt="AppCopilot" loading="lazy">
+                        </div>
+                    </div>
 
-                <h3>ToolZoo Lists</h3>
-                <!-- Tool categories will be loaded dynamically by JavaScript -->
+                    <div class="project-row featured fade-in">
+                        <div class="project-visual">
+                            <img src="assets/Intellisearch.png" alt="IntelliSearch" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-badge">Agents</span>
+                            <h3>IntelliSearch</h3>
+                            <p>IntelliSearch V3.1: Unifying Search, Empowering Action for tool calling autonomous agents.</p>
+                            <a href="https://github.com/SJTU-SAI-GeekCenter/IntelliSearch" target="_blank" class="arrow-link">
+                                View Project
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
 
-            </section>
-        </main>
-    </div>
+                    <div class="project-row featured fade-in">
+                        <div class="project-visual">
+                            <img src="assets/agentcodebase.png" alt="AgentCodeBase" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-badge">Agents</span>
+                            <h3>AgentCodeBase</h3>
+                            <p>AI agent codebase for automated development tasks</p>
+                            <a href="https://github.com/xiyuanyang-code/AgentCodeBase" target="_blank" class="arrow-link">
+                                View Project
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
 
-    <!-- Load scripts that use fetch API to load data -->
-    <script src="./js/index.js"></script>
+                    <div class="projects-grid">
+                        <a href="https://github.com/xiyuanyang-code/AI1811-E3-ML-Master" target="_blank" class="project-item fade-in">
+                            <span class="project-number">05</span>
+                            <div class="project-text">
+                                <h4>E3-ML-Master</h4>
+                                <p>[Course-Project AI1811] E³-ML-Master: Advanced Envisioning-Executing for Goal-Driven Self-Evolved ML-Master.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/AI1811-LLM-Reasoning" target="_blank" class="project-item fade-in">
+                            <span class="project-number">06</span>
+                            <div class="project-text">
+                                <h4>LLM Reasoning</h4>
+                                <p>[Course-Project AI1811] LLM Reasoning: Enhancing Reasoning Abilities for LLMs using Reinforcement Learning</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/AI1811-Clustering" target="_blank" class="project-item fade-in">
+                            <span class="project-number">07</span>
+                            <div class="project-text">
+                                <h4>Clustering</h4>
+                                <p>[Course-Project AI1811] Clustering of High-Dimensional Data with Intrinsic Low Rank</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/AI1807-ImageScaling" target="_blank" class="project-item fade-in">
+                            <span class="project-number">08</span>
+                            <div class="project-text">
+                                <h4>ImageScaling</h4>
+                                <p>[Course-Project AI1807] Two-Dimensional Image Scaling Methods Based on Classical Interpolation Algorithms and Their Extensions</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/GPUSentry" target="_blank" class="project-item fade-in">
+                            <span class="project-number">09</span>
+                            <div class="project-text">
+                                <h4>GPUSentry</h4>
+                                <p>GPUSentry: a command-line tool for monitoring GPU status in real-time.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/PaperPulse" target="_blank" class="project-item fade-in">
+                            <span class="project-number">11</span>
+                            <div class="project-text">
+                                <h4>PaperPulse</h4>
+                                <p>PaperPulse: Your Daily Latest Paper Acquisition Assistant, automatically pushing trending papers and Github repos with AI summary.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/ProbeCode" target="_blank" class="project-item fade-in">
+                            <span class="project-number">12</span>
+                            <div class="project-text">
+                                <h4>ProbeCode</h4>
+                                <p>ProbeCode: AI coding agent integrating static code inspection with a ReAct framework to understand and memorize long-context code.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/CodeLines" target="_blank" class="project-item fade-in">
+                            <span class="project-number">13</span>
+                            <div class="project-text">
+                                <h4>CodeLines</h4>
+                                <p>Repo Code Line Counter: a CLI tool counting the number of code lines in a repository, with options to ignore specific folders and filter by file extensions.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/Feishu-GPU-Auto-Monitoring" target="_blank" class="project-item fade-in">
+                            <span class="project-number">14</span>
+                            <div class="project-text">
+                                <h4>Feishu GPU Monitoring</h4>
+                                <p>Automated GPU monitoring with Feishu notifications</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/minigrep" target="_blank" class="project-item fade-in">
+                            <span class="project-number">15</span>
+                            <div class="project-text">
+                                <h4>mini-grep</h4>
+                                <p>Rust implementation of grep utility</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/uv-slow" target="_blank" class="project-item fade-in">
+                            <span class="project-number">16</span>
+                            <div class="project-text">
+                                <h4>uv-slow</h4>
+                                <p>Tools to generate requirements.txt for Python Project</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/xiyuanyang-code/BLOGing-AI" target="_blank" class="project-item fade-in">
+                            <span class="project-number">17</span>
+                            <div class="project-text">
+                                <h4>BLOGing AI</h4>
+                                <p>A simple application for blog content retrieval implemented using RAG as the core technology.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="section blog-section">
+            <div class="section-container">
+                <div class="section-header fade-in">
+                    <span class="section-tag">02</span>
+                    <h2 class="section-title">Blog & Community</h2>
+                    <p class="section-description">Sharing knowledge, building connections</p>
+                </div>
+
+                <div class="blog-stream">
+                    <div class="blog-item featured fade-in">
+                        <div class="blog-number">01</div>
+                        <div class="blog-content">
+                            <h3>Personal Blog</h3>
+                            <p>Technical articles, tutorials, and thoughts on software development</p>
+                            <a href="https://xiyuanyang-code.github.io/" target="_blank" class="arrow-link">
+                                Visit Blog
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blog-item fade-in">
+                        <div class="blog-number">02</div>
+                        <div class="blog-content">
+                            <h3>Blog Source</h3>
+                            <p>Complete backup of blog source code and markdown files</p>
+                            <a href="https://github.com/xiyuanyang-code/Blog-Source-Backup" target="_blank" class="arrow-link">View Repository →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-item fade-in">
+                        <div class="blog-number">03</div>
+                        <div class="blog-content">
+                            <h3>Word Counter</h3>
+                            <p>Automated word counting tool for blog posts and articles</p>
+                            <a href="https://github.com/xiyuanyang-code/Blog-word-counting" target="_blank" class="arrow-link">View Tool →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-item fade-in">
+                        <div class="blog-number">04</div>
+                        <div class="blog-content">
+                            <h3>Update Fetcher</h3>
+                            <p>Automated script to fetch and display blog updates</p>
+                            <a href="https://github.com/xiyuanyang-code/Blog-Update-Fetching-Script" target="_blank" class="arrow-link">View Script →</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-item fade-in">
+                        <div class="blog-number">05</div>
+                        <div class="blog-content">
+                            <h3>SAI Community</h3>
+                            <p>SJTU SAI Geek Center - Building a community of passionate developers</p>
+                            <a href="https://github.com/SJTU-SAI-GeekCenter/SAI-Community" target="_blank" class="arrow-link">Join Community →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="learning" class="section learning-section">
+            <div class="section-container">
+                <div class="section-header fade-in">
+                    <span class="section-tag">03</span>
+                    <h2 class="section-title">Learning</h2>
+                    <p class="section-description">Continuous learning and knowledge accumulation</p>
+                </div>
+
+                <div class="learning-stream">
+                    <a href="https://github.com/xiyuanyang-code/My-NLP" target="_blank" class="learning-pill fade-in">My-NLP</a>
+                    <a href="https://github.com/xiyuanyang-code/My-CSAPP" target="_blank" class="learning-pill fade-in">My-CSAPP</a>
+                    <a href="https://github.com/xiyuanyang-code/My-CUDA" target="_blank" class="learning-pill fade-in">My-CUDA</a>
+                    <a href="https://github.com/xiyuanyang-code/My-ModernRobotics" target="_blank" class="learning-pill fade-in">My-ModernRobotics</a>
+                    <a href="https://github.com/xiyuanyang-code/My-Typst-Note" target="_blank" class="learning-pill fade-in">My-Typst-Note</a>
+                    <a href="https://github.com/xiyuanyang-code/My-LeetCode" target="_blank" class="learning-pill fade-in">My-LeetCode</a>
+                    <a href="https://github.com/xiyuanyang-code/My-Torch" target="_blank" class="learning-pill fade-in">My-Torch</a>
+                    <a href="https://github.com/xiyuanyang-code/My-LLM" target="_blank" class="learning-pill fade-in">My-LLM</a>
+                    <a href="https://github.com/xiyuanyang-code/My-Rust" target="_blank" class="learning-pill fade-in">My-Rust</a>
+                    <a href="https://github.com/xiyuanyang-code/My-Python" target="_blank" class="learning-pill fade-in">My-Python</a>
+                    <a href="https://github.com/xiyuanyang-code/My-FullStack" target="_blank" class="learning-pill fade-in">My-FullStack</a>
+                    <a href="https://github.com/xiyuanyang-code/Data-Structure-Awesome" target="_blank" class="learning-pill fade-in">Data-Structure-Awesome</a>
+                    <a href="https://github.com/xiyuanyang-code/Integral-CheatSheet" target="_blank" class="learning-pill fade-in">Integral-CheatSheet</a>
+                    <a href="https://github.com/xiyuanyang-code/My-BashScripts" target="_blank" class="learning-pill fade-in">My-BashScripts</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Xiyuan Yang. Built with passion.</p>
+        <div class="footer-links">
+            <a href="https://github.com/xiyuanyang-code" target="_blank">GitHub</a>
+            <a href="https://xiyuanyang-code.github.io/" target="_blank">Blog</a>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
 </body>
-
 </html>

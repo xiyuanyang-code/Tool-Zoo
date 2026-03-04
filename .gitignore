@@ -182,3 +182,8 @@ pyrightconfig.json
 **/.history
 **/out
 **/build
+
+spec.md
+docs_old
+
+.DS_Store
